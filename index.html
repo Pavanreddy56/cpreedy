@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Modern web application with dark/light theme, responsive design, and smooth animations">
+    <title>Modern Web Application</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <svg class="logo" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                    <path d="M2 17l10 5 10-5"/>
+                    <path d="M2 12l10 5 10-5"/>
+                </svg>
+                <span class="brand-name">ModernApp</span>
+            </div>
+            <button class="theme-toggle" aria-label="Toggle dark mode">
+                <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <circle cx="12" cy="12" r="5"/>
+                    <line x1="12" y1="1" x2="12" y2="3"/>
+                    <line x1="12" y1="21" x2="12" y2="23"/>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                    <line x1="1" y1="12" x2="3" y2="12"/>
+                    <line x1="21" y1="12" x2="23" y2="12"/>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                </svg>
+                <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                </svg>
+            </button>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to Modern Web Application</h1>
+                <p class="hero-subtitle">A clean, responsive, and beautifully designed web experience</p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary">Get Started</button>
+                    <button class="btn btn-secondary">Learn More</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card">
+                    <div class="card-content">
+                        <h3>Live Demo</h3>
+                        <p>Experience the modern design</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                            </svg>
+                        </div>
+                        <h3>Responsive Design</h3>
+                        <p>Adapts seamlessly to any device or screen size</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <line x1="9" y1="9" x2="15" y2="9"/>
+                                <line x1="9" y1="15" x2="15" y2="15"/>
+                            </svg>
+                        </div>
+                        <h3>Dark Mode</h3>
+                        <p>Switch between light and dark themes effortlessly</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <polyline points="23 4 23 10 17 10"/>
+                                <polyline points="23 20 23 14 17 14"/>
+                                <path d="M17 10V14M16 10V14"/>
+                                <path d="M1 14h4v2H1z"/>
+                                <path d="M21.5 3.5L20 2l-1.5 1.5"/>
+                                <path d="M21.5 20.5l-1-1-1.5 1.5"/>
+                            </svg>
+                        </div>
+                        <h3>Fast & Optimized</h3>
+                        <p>Built for performance with minimal dependencies</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <h3>Modern UX</h3>
+                        <p>Smooth animations and intuitive interactions</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">About ModernApp</h2>
+                        <p>ModernApp is a demonstration of contemporary web development practices. Built with performance and user experience in mind, it showcases how to create beautiful, functional web applications using modern techniques.</p>
+                        <p>The application features a responsive design that adapts to any screen size, a smooth dark/light theme toggle, and engaging micro-interactions that enhance the user experience without being distracting.</p>
+                        <div class="stats">
+                            <div class="stat">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Responsive</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">99.9%</span>
+                                <span class="stat-label">Uptime</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">5★</span>
+                                <span class="stat-label">UX</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <div class="mockup">
+                            <div class="mockup-screen">
+                                <div class="mockup-content">
+                                    <h3>Mockup View</h3>
+                                    <p>Responsive preview</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <div>
+                                <h4>Email</h4>
+                                <p>hello@modernapp.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M21.21 15.89A10 10 0 1 1 8 2.83"/>
+                                <path d="M15 10l4.55-2.36M20.86 7.38l-1.41 1.41M22 12h-4"/>
+                            </svg>
+                            <div>
+                                <h4>Location</h4>
+                                <p>San Francisco, CA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <svg class="logo" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                        <path d="M2 17l10 5 10-5"/>
+                        <path d="M2 12l10 5 10-5"/>
+                    </svg>
+                    <span class="brand-name">ModernApp</span>
+                </div>
+                <p>&copy; 2024 ModernApp. Built with modern web technologies.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
